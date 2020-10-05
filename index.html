@@ -7,14 +7,14 @@
   <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      <link rel="stylesheet" href="static/css/style.css">
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
-    />
+      />
+      <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body class="bg-dark">
+<body>
   <div class="wrapper">
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <nav>
       <a class="navbar-brand" href="index.html">UFO Sightings</a>
     </nav> 
     <div class="jumbotron">
@@ -27,7 +27,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4">
-        <h3>UFO Sightings: Fact of Fancy? <small>Ufologists Weigh In</small></h3>
+        <h3>UFO Sightings: Fact of Fancy? <small>Ufologists Weigh In</small></h3>         
       </div>
       <div class="col-md-8">
         <p>
@@ -49,8 +49,22 @@
             <input type="text" placeholder="1/10/2010" id="datetime" />
           </li>
           <li class="list-group-item">
-            <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+            <label for="shape">Enter Shape</label>  
+            <input type="text" placeholder="circle" id="shape" />       
           </li>
+          <li class="list-group-item">
+            <label for="city">Enter City</label>
+            <input type="text" placeholder="benton" id="city" />
+          </li>
+          <li class="list-group-item">
+            <label for="state">Enter State</label>
+            <input type="text" placeholder="ca" id="state" />
+          </li>
+          <li class="list-group-item">
+            <label for="country">Enter Country</label>
+            <input type="text" placeholder="us" id="country" />
+          </li>
+
         </ul> 
       </div>
       <div class="col-md-9">
